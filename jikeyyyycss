@@ -1,0 +1,207 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  scroll-behavior: smooth;
+      transition: background-color 0.3s, color 0.3s;
+      font-family: Arial, sans-serif;
+ }
+ 
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(128,128,128);
+background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(255,255,255,1) 150%);
+  color: #000;
+  position: relative;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.hero .heading span {
+  color: #ff5252;
+}
+
+.hero a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .heading__link {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.heading-cta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav.navigation-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  z-index: 10;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0;
+}
+.heading__link :hover {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.6;
+  color: khaki;
+}
+nav.navigation-bar :hover {
+  color: khaki;
+}
+.navigation__item {
+  margin: 0 15px;
+}
+
+.navigation__item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(128,128,128);
+background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(255,255,255,1) 150%);
+  color: #000;
+  position: relative;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.about h2, .contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile__intro {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.6;
+  color: white;
+}
+
+.another__intro {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.6;
+  color: white;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.projecttitle {
+  font-size: 30px;
+  margin: 20px 0;
+  line-height: 1.6;
+  color: white;
+}
+
+.projectdescription {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.6;
+  color: white;
+}
+
+.project__image-image {
+  column-gap: 50% 50%
+}
+
+.projectlink :hover {
+  color: khaki;
+}
+
+.contactform input, .contactform textarea, .contactform button {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: antiquewhite;
+}
+
+.contactform button {
+  background-color: khaki;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactform button:hover {
+  background-color: khaki
+}
+.contact {
+
+padding: 100px;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+background: rgb(128,128,128);
+background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(255,255,255,1) 150%);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  
+}
+.socialstext {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  
+}
+.socials__facebook img,
+.socials__email img,
+.socials__insta img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.socials__facebook img:hover,
+.socials__email img:hover,
+.socials__insta img:hover {
+  transform: scale(1.2);
+  color: khaki;
+}
