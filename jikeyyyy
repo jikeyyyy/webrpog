@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content=
+  "width=device-width,initial-scale=1" />
+  <title> Dorothy • Portfolio </title>
+  <link rel="icon" href="fav.png" />
+  <script defer="defer" src=
+  "webpr.js"></script>
+  <link href="webprog.css" rel="stylesheet" />
+</head>
+<body>
+  
+  <div class="hero" id="hero">
+    <div class="canvas">
+      <canvas class="connecting-dots"></canvas>
+    </div>
+    <div class="heading">
+      <div class="heading__line-1">
+        Hello,I am<span style="color:khaki"> Dorothy</span>.
+      </div>
+      <div class="heading__line-2">
+        I am an aspiring photographer
+        <br>
+        and here is my portfolio.
+      </div><a href="#about" class="heading__link">
+      <div class="heading-cta">
+        Portfolio Here <svg class="heading__arrow"
+        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+        viewbox="0 0 24 24">
+        <title>arrow-right</title>
+        <path d=
+        "M11.293 5.707l5.293 5.293h-11.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h11.586l-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l7-7c0.092-0.092 0.166-0.202 0.217-0.324 0.101-0.245 0.101-0.521 0-0.766-0.049-0.118-0.121-0.228-0.217-0.324l-7-7c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z">
+        </path></svg>
+      </div></a>
+    </div>
+  </div>
+  <nav class="navigation-bar">
+    <ul class="navigation">
+      <li class="navigation__item navigation__item--active" id=
+      "nav-hero">
+        <a href="#hero">Home</a>
+      </li>
+      <li class="navigation__item" id="nav-about">
+        <a href="#about">About</a>
+      </li>
+      <li class="navigation__item" id="nav-projects">
+        <a href="#projects">Works</a>
+      </li>
+      <li class="navigation__item" id="nav-contact">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="main-bg">
+    <div class="canvas">
+      <canvas class="canvas-2"></canvas>
+    </div>
+  </div>
+  <section class="about" id="about">
+    <h2 class="about__heading">About</h2>
+    <div class="about__content">
+      <div class="about__image-image"><img src="./images/ako.jpg" width="200" height="300" </div>
+     
+           
+        <p class="profile__intro"> An aspiring photographer who does not only look at the aesthetic of my works but also the story within them. I photograph as a hobby and would like to land a job in the industry one day. </p>
+        <br>
+        <p class="another__intro"> I also have a hobby of writing romance novels though I am not publishing any under my name, but I am willing to do so in the future.</p>
+      </div>
+     
+  </section>
+  <form class="contactform" action=
+  form action="https://submit-form.com/<form-id>" method="post">
+    <input class="contactform-name" name="name" placeholder=
+    "Name Please" /> <input class="contactform-email" type="email"
+    name="_replyto" placeholder="Email Here" /> 
+    <textarea class="contactform-message" name="message"
+    placeholder="Message For Me!"></textarea>
+   </div><button type="button" id=
+      "form-submit">Submit</button>
+    </div>
+</section>
+<section>
+  <p class="socialstext"> Connect with Me <br> Below <br> ↓↓↓ </p>
+  <div class="socials">
+    <a href="https://m.me/haiganae" target="_blank">
+    <div class="socials__facebook"><img src=
+    "./images/facebook-icon-black-logo-133935095E-seeklogo.com.png" alt=
+    "fb" width="20" height="20" /> </div></a>
+    <a href="mailto: dorothyemmanuelle@gmail.com" target=
+    "_blank">
+    <div class="socials__email"><img src=
+    "./images/360_F_831978480_uas3FfgxwITPOlDB31DrsX5dT6DTCw88-removebg-preview.png" width="30" height="20" /></div></a>
+     <a href="https://www.instagram.com/haiganae?igsh=MWhiOTZvc3g1djZpZg==" target=
+    "_blank">
+    <div class="socials__insta"><img src=
+    "./images/2974228-removebg-preview.png" alt=
+    "insta" width="20" height="20" /></div></a>
+
+    </section>
+</body>
+</html>
